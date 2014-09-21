@@ -96,6 +96,7 @@ static CGFloat kTextViewToSuperviewHeightDelta;
 }
 
 - (BOOL)resignFirstResponder {
+    [super resignFirstResponder];
     return [[self textView] resignFirstResponder];
 }
 
